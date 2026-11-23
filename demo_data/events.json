@@ -1,0 +1,163 @@
+[
+  {
+    "timestamp": "2026-11-23T09:00:00Z",
+    "event_type": "auth_failed",
+    "host": "ws-01",
+    "source_ip": "203.0.113.10",
+    "user": "admin",
+    "message": "Failed login for admin"
+  },
+  {
+    "timestamp": "2026-11-23T09:01:00Z",
+    "event_type": "auth_failed",
+    "host": "ws-01",
+    "source_ip": "203.0.113.10",
+    "user": "admin",
+    "message": "Failed login for admin"
+  },
+  {
+    "timestamp": "2026-11-23T09:02:00Z",
+    "event_type": "auth_failed",
+    "host": "ws-01",
+    "source_ip": "203.0.113.10",
+    "user": "admin",
+    "message": "Failed login for admin"
+  },
+  {
+    "timestamp": "2026-11-23T09:03:00Z",
+    "event_type": "auth_failed",
+    "host": "ws-01",
+    "source_ip": "203.0.113.10",
+    "user": "admin",
+    "message": "Failed login for admin"
+  },
+  {
+    "timestamp": "2026-11-23T09:04:00Z",
+    "event_type": "auth_failed",
+    "host": "ws-01",
+    "source_ip": "203.0.113.10",
+    "user": "admin",
+    "message": "Failed login for admin"
+  },
+  {
+    "timestamp": "2026-11-23T09:05:00Z",
+    "event_type": "auth_failed",
+    "host": "ws-01",
+    "source_ip": "203.0.113.10",
+    "user": "admin",
+    "message": "Failed login for admin"
+  },
+  {
+    "timestamp": "2026-11-23T09:10:00Z",
+    "event_type": "process",
+    "host": "ws-02",
+    "command": "powershell -EncodedCommand aGVsbG8=",
+    "message": "Encoded PowerShell launched"
+  },
+  {
+    "timestamp": "2026-11-23T09:11:00Z",
+    "event_type": "network",
+    "host": "ws-02",
+    "destination": "\\\\fileserver\\ADMIN$",
+    "message": "SMB to admin share"
+  },
+  {
+    "timestamp": "2026-11-23T09:12:00Z",
+    "event_type": "network",
+    "host": "ws-03",
+    "destination": "evil-demo.example:4444",
+    "message": "Outbound to suspicious domain"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:00Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report0.docx to report0.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:01Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report1.docx to report1.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:02Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report2.docx to report2.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:03Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report3.docx to report3.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:04Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report4.docx to report4.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:05Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report5.docx to report5.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:06Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report6.docx to report6.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:07Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report7.docx to report7.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:08Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report8.docx to report8.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:09Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report9.docx to report9.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:10Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report10.docx to report10.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:13:11Z",
+    "event_type": "file_rename",
+    "host": "ws-04",
+    "source_ip": "",
+    "message": "Renamed report11.docx to report11.docx.locked"
+  },
+  {
+    "timestamp": "2026-11-23T09:20:00Z",
+    "event_type": "auth_success",
+    "host": "ws-01",
+    "source_ip": "192.0.2.5",
+    "user": "haseem",
+    "message": "Normal login"
+  }
+]
